@@ -3,13 +3,19 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 
 /*let randomIndex = Math.floor(Math.random() * characters.length)*/
-let numOfCharacters = 15
+let inputValue = 0
+let numOfCharacters = 0
 let passwordItemsOne = []
 let passwordItemsTwo = []
 let pswOne = document.querySelector('#psw-one')
 let pswTwo = document.querySelector('#psw-two')
 
+
+
 function generatePassword() {
+    
+inputValue = document.querySelector('#input-one')
+ numOfCharacters = inputValue.valueAsNumber
 
 for (let i = 0; i < numOfCharacters; i++) {
     let randomIndex = Math.floor(Math.random() * characters.length)
@@ -30,6 +36,5 @@ passwordItemsOne = []
 passwordItemsTwo = []
 
  }
-
 
  
