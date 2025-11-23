@@ -61,20 +61,16 @@ margin: 0;
     cursor: pointer;
     
 }
-
-#psw-section {
-    display: flex;
-   gap: 40px;
-   margin: 0 auto;
-   
-    
-}
-
-.psw-container {
-    
-    padding: 8px 50px;
-    border-radius: 4px;
-    background: #273549;
+#input-one {
+    width: 140px;
     color: #C4B5FD;
-
+     background: #273549;
+     border: none;
+    text-align: center;
+}
+.btn-container {
+  display: flex;
+   gap: 30px;
+   
+   
 }
