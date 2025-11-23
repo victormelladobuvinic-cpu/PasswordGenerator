@@ -74,3 +74,20 @@ margin: 0;
    
    
 }
+
+#psw-section {
+    display: flex;
+   gap: 40px;
+   margin: 0 auto;
+   
+    
+}
+
+.psw-container {
+    
+    padding: 8px 50px;
+    border-radius: 4px;
+    background: #273549;
+    color: #C4B5FD;
+
+}
